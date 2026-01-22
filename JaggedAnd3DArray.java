@@ -1,0 +1,18 @@
+public class JaggedAnd3DArray {
+    public static void main(String a[]){
+    int nums[][]=new int[3][];
+    nums[0]=new int[2];
+    nums[1]=new int[4];
+    nums[2]=new int[3];
+
+    for(int i=0;i<nums.length;i++){
+        for(int j=0;j<nums[i].length;j++){
+            nums[i][j]=(int)(Math.random()*10);
+            System.out.print(nums[i][j]+" ");
+        }
+        System.out.println();
+       }
+
+  // int num1[][][]=new int[2][4][3]; //3-D array and can be used and operated in same way as 2-D Array
+    }
+}
